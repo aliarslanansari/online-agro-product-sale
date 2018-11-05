@@ -1,0 +1,91 @@
+*{
+	font-family:Loma;
+}
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    width:100px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{background-color:lightyellow}
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+	margin-left:5px;
+}
+.tdcss {
+    float: left;
+    width: 50%;
+    padding: 5px;
+	margin-left:5px;
+}
+.column3 {
+    float: left;  
+width:19%;
+height:300px;
+    padding: 5px;
+	margin-left:5px;
+	background-color:lightgreen;
+}
+.column2 {
+    float: right;
+    width: 78%;
+    padding: 2px;
+	margin-left:5px;
+}
+.column4 {
+    float: left;
+    width: 78%;
+    padding: 5px;
+	margin-left:5px;
+}
+footer {
+  //position: absolute;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $gray;
+  background: #e8b314;
+  color:white;
+}
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d4e234;
+	width:100%;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #bfd686;
+}
